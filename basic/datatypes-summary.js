@@ -31,3 +31,28 @@ const myfun = function(){
     console.log("Hello World!");
     
 }
+
+
+// ***********************************************************************************
+
+// stack :- use for primitive type data , Heap :- use for Non Primitive tpye data
+
+let myYoutubename = "TuntunKumar"
+let anothername = myYoutubename
+anothername = "Radhe radhe"
+ 
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Tuntun@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
